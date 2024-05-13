@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>YazMüh_Taslak</RootNamespace>
+    <AssemblyName>YazMüh-Taslak</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\Bnfu_1.5.3_crack\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebaseAdmin, Version=2.4.0.0, Culture=neutral, PublicKeyToken=97c8d00c348326ed, processorArchitecture=MSIL">
+      <HintPath>..\packages\FirebaseAdmin.2.4.0\lib\net461\FirebaseAdmin.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebaseAPI, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FirebaseAPI.1.0.0.1\lib\net472\FirebaseAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="FireSharp, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FireSharp.2.0.4\lib\portable-net45+sl5+wp8+win8\FireSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax, Version=4.8.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Api.Gax.4.8.0\lib\net462\Google.Api.Gax.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Api.Gax.Rest, Version=4.8.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Api.Gax.Rest.4.8.0\lib\net462\Google.Api.Gax.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.67.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.1.67.0\lib\net462\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth, Version=1.67.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Auth.1.67.0\lib\net462\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.67.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.67.0\lib\net462\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Storage.v1, Version=1.67.0.3365, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Storage.v1.1.67.0.3365\lib\net462\Google.Apis.Storage.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Cloud.Storage.V1, Version=4.10.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Cloud.Storage.V1.4.10.0\lib\net462\Google.Cloud.Storage.V1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.6.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop, Version=1.0.168.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.7.0.0\lib\net462\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.7.1\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.3, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.8.0.3\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana.Designer.cs">
+      <DependentUpon>Ana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baglanti.cs" />
+    <Compile Include="besinler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="besinler.Designer.cs">
+      <DependentUpon>besinler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bilgi.cs" />
+    <Compile Include="Degerlendirme.cs" />
+    <Compile Include="DiyetListesi.cs" />
+    <Compile Include="diyetYaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diyetYaz.Designer.cs">
+      <DependentUpon>diyetYaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirebaseManager.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hastalarım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hastalarım.Designer.cs">
+      <DependentUpon>hastalarım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hesapla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hesapla.Designer.cs">
+      <DependentUpon>hesapla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayıt.Designer.cs">
+      <DependentUpon>Kayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keys.cs" />
+    <Compile Include="Liste.cs" />
+    <Compile Include="mesaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mesaj.Designer.cs">
+      <DependentUpon>mesaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mesajyaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mesajyaz.Designer.cs">
+      <DependentUpon>mesajyaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="message.cs" />
+    <Compile Include="Onay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Onay.Designer.cs">
+      <DependentUpon>Onay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="relationship.cs" />
+    <Compile Include="secenek.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="secenek.Designer.cs">
+      <DependentUpon>secenek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs" />
+    <Compile Include="Vki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vki.Designer.cs">
+      <DependentUpon>Vki.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ana.resx">
+      <DependentUpon>Ana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="besinler.resx">
+      <DependentUpon>besinler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diyetYaz.resx">
+      <DependentUpon>diyetYaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hastalarım.resx">
+      <DependentUpon>hastalarım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hesapla.resx">
+      <DependentUpon>hesapla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayıt.resx">
+      <DependentUpon>Kayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mesaj.resx">
+      <DependentUpon>mesaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mesajyaz.resx">
+      <DependentUpon>mesajyaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Onay.resx">
+      <DependentUpon>Onay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="secenek.resx">
+      <DependentUpon>secenek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vki.resx">
+      <DependentUpon>Vki.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More Than.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More Thaasn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More Than1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+</Project>
