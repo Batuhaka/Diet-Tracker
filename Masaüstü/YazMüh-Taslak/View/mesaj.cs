@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using YazMüh_Taslak.Controller;
 
 namespace YazMüh_Taslak
 {
@@ -22,80 +23,47 @@ namespace YazMüh_Taslak
         }
         Baglanti bg = new Baglanti();
         public List<string> kullaniciListesi1 = new List<string>();
+        private List<string[]> veriListesi = new List<string[]>();
         public string isim;
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
-
+        IliskiKontrol ik = new IliskiKontrol();
         private void mesaj_Load(object sender, EventArgs e)
         {
             int sayac = 0;
-
-            try
+            veriListesi= ik.hasta(kullaniciListesi1);
+            foreach (var veri in veriListesi)
             {
-                FirebaseResponse al3 = bg.baglan().Get("users/");
-                Dictionary<string, Users> veri = JsonConvert.DeserializeObject<Dictionary<string, Users>>(al3.Body.ToString());
-
-                if (al3.Body != null)
-                {
-                    foreach (var item3 in veri)
-                    {
-                        for (int i = 0; i < kullaniciListesi1.Count; i++)
-                        {
-                            if (item3.Key == kullaniciListesi1[i])
-                            {
-                                sayac++;
-                                goster(sayac);
-                                switch (sayac)
-                                {
-                                    case 1:
-                                        
-                                        label1.Text = item3.Value.name +" "+ item3.Value.lastname;
-                                        break;
-                                    case 2:
-                                        label2.Text = item3.Value.name + " " + item3.Value.lastname;
-                                        break;
-                                    case 3:
-                                        label3.Text = item3.Value.name + " " + item3.Value.lastname;
-                                        break;
-                                    default:
-                                        label4.Text = item3.Value.name + " " + item3.Value.lastname;
-                                        break;
-                                }
-
-                            }
-                        }
-                    }
-
-                }
-                else
-                {
-                    MessageBox.Show("Kullanıcı bulunamadı");
-                }
+                sayac++;
+                goster(sayac,veri);
+                
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Giriş Başarısız: " + ex.Message);
-            }
+            
         }
-        void goster(int sayac)
+        public void goster(int sayac, string[] veri)
         {
             switch (sayac)
             {
                 case 1:
                     panel1.Visible= true;
+                    label1.Text = veri[0] + " " + veri[1];
                     break;
                 case 2:
                     panel2.Visible = true;
+                    label2.Text = veri[0] + " " + veri[1];
                     break;
                 case 3:
                     panel3.Visible = true;
+                    label3.Text = veri[0] + " " + veri[1];
                     break;
                 default:
                     panel4.Visible = true;
+                    label4.Text = veri[0] + " " + veri[1];
                     break;
             }
+
         }
 
         private void button1_Click(object sender, EventArgs e)

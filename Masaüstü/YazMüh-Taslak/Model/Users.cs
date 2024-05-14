@@ -13,5 +13,8 @@ namespace YazMüh_Taslak
         public string lastname { get; set; }
         public string email { get; set; }
         public string age { get; set; }
+        public string kilo { get; set; }
+        public string boy { get; set; }
+        public string bmi { get; set; }
     }
 }

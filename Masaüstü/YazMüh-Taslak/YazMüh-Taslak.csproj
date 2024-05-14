@@ -152,78 +152,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ana.cs">
+    <Compile Include="View\Ana.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ana.Designer.cs">
+    <Compile Include="View\Ana.Designer.cs">
       <DependentUpon>Ana.cs</DependentUpon>
     </Compile>
-    <Compile Include="Baglanti.cs" />
-    <Compile Include="besinler.cs">
+    <Compile Include="Controller\GirisKontrol.cs" />
+    <Compile Include="Controller\IliskiKontrol.cs" />
+    <Compile Include="Controller\KayıtKontrol.cs" />
+    <Compile Include="Controller\MesajKontrol.cs" />
+    <Compile Include="Model\Baglanti.cs" />
+    <Compile Include="View\besinler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="besinler.Designer.cs">
+    <Compile Include="View\besinler.Designer.cs">
       <DependentUpon>besinler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bilgi.cs" />
-    <Compile Include="Degerlendirme.cs" />
-    <Compile Include="DiyetListesi.cs" />
-    <Compile Include="diyetYaz.cs">
+    <Compile Include="Model\Bilgi.cs" />
+    <Compile Include="Model\Degerlendirme.cs" />
+    <Compile Include="Model\DiyetListesi.cs" />
+    <Compile Include="View\diyetYaz.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="diyetYaz.Designer.cs">
+    <Compile Include="View\diyetYaz.Designer.cs">
       <DependentUpon>diyetYaz.cs</DependentUpon>
     </Compile>
-    <Compile Include="FirebaseManager.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\FirebaseManager.cs" />
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Giris.cs">
+    <Compile Include="View\Giris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Giris.Designer.cs">
+    <Compile Include="View\Giris.Designer.cs">
       <DependentUpon>Giris.cs</DependentUpon>
     </Compile>
-    <Compile Include="hastalarım.cs">
+    <Compile Include="View\hastalarım.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hastalarım.Designer.cs">
+    <Compile Include="View\hastalarım.Designer.cs">
       <DependentUpon>hastalarım.cs</DependentUpon>
     </Compile>
-    <Compile Include="hesapla.cs">
+    <Compile Include="View\hesapla.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hesapla.Designer.cs">
+    <Compile Include="View\hesapla.Designer.cs">
       <DependentUpon>hesapla.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kayıt.cs">
+    <Compile Include="View\Kayıt.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Kayıt.Designer.cs">
+    <Compile Include="View\Kayıt.Designer.cs">
       <DependentUpon>Kayıt.cs</DependentUpon>
     </Compile>
-    <Compile Include="Keys.cs" />
-    <Compile Include="Liste.cs" />
-    <Compile Include="mesaj.cs">
+    <Compile Include="Model\Keys.cs" />
+    <Compile Include="Model\Liste.cs" />
+    <Compile Include="View\mesaj.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mesaj.Designer.cs">
+    <Compile Include="View\mesaj.Designer.cs">
       <DependentUpon>mesaj.cs</DependentUpon>
     </Compile>
-    <Compile Include="mesajyaz.cs">
+    <Compile Include="View\mesajyaz.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mesajyaz.Designer.cs">
+    <Compile Include="View\mesajyaz.Designer.cs">
       <DependentUpon>mesajyaz.cs</DependentUpon>
     </Compile>
-    <Compile Include="message.cs" />
-    <Compile Include="Onay.cs">
+    <Compile Include="Model\message.cs" />
+    <Compile Include="View\Onay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Onay.Designer.cs">
+    <Compile Include="View\Onay.Designer.cs">
       <DependentUpon>Onay.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -233,48 +237,48 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="relationship.cs" />
-    <Compile Include="secenek.cs">
+    <Compile Include="Model\relationship.cs" />
+    <Compile Include="View\secenek.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="secenek.Designer.cs">
+    <Compile Include="View\secenek.Designer.cs">
       <DependentUpon>secenek.cs</DependentUpon>
     </Compile>
-    <Compile Include="Users.cs" />
-    <Compile Include="Vki.cs">
+    <Compile Include="Model\Users.cs" />
+    <Compile Include="View\Vki.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vki.Designer.cs">
+    <Compile Include="View\Vki.Designer.cs">
       <DependentUpon>Vki.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Ana.resx">
+    <EmbeddedResource Include="View\Ana.resx">
       <DependentUpon>Ana.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="besinler.resx">
+    <EmbeddedResource Include="View\besinler.resx">
       <DependentUpon>besinler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="diyetYaz.resx">
+    <EmbeddedResource Include="View\diyetYaz.resx">
       <DependentUpon>diyetYaz.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Giris.resx">
+    <EmbeddedResource Include="View\Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="hastalarım.resx">
+    <EmbeddedResource Include="View\hastalarım.resx">
       <DependentUpon>hastalarım.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="hesapla.resx">
+    <EmbeddedResource Include="View\hesapla.resx">
       <DependentUpon>hesapla.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Kayıt.resx">
+    <EmbeddedResource Include="View\Kayıt.resx">
       <DependentUpon>Kayıt.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mesaj.resx">
+    <EmbeddedResource Include="View\mesaj.resx">
       <DependentUpon>mesaj.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mesajyaz.resx">
+    <EmbeddedResource Include="View\mesajyaz.resx">
       <DependentUpon>mesajyaz.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Onay.resx">
+    <EmbeddedResource Include="View\Onay.resx">
       <DependentUpon>Onay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -282,10 +286,10 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="secenek.resx">
+    <EmbeddedResource Include="View\secenek.resx">
       <DependentUpon>secenek.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Vki.resx">
+    <EmbeddedResource Include="View\Vki.resx">
       <DependentUpon>Vki.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

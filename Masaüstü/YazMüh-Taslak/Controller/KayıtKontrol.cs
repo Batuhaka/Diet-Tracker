@@ -1,25 +1,22 @@
-﻿using System;
+﻿using FireSharp.Response;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using FireSharp.Response;
-using FireSharp.Config;
-using FireSharp;
-using FireSharp.Interfaces;
-using Newtonsoft.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using System.Net.Mail;
-using System.IO;
 
-namespace YazMüh_Taslak
+namespace YazMüh_Taslak.Controller
 {
-    public partial class Onay : Form
+    internal class KayıtKontrol
     {
+
+        public Image img;
         public string ad;
         public string soyad;
         public string tc;
@@ -31,26 +28,37 @@ namespace YazMüh_Taslak
         public string ucret;
         public string okul;
         public string sifre;
-        public Image img;
-        public Onay()
+        public string base64Resim;
+        
+        Baglanti bg = new Baglanti();
+
+        public bool onayyolla(string ad, string soyad,
+            string tc, string dtarih, string telefon, string mail,
+            string adres, string deneyim, string ucret, string okul, string sifre,string base64Resim)
         {
-            InitializeComponent();
+            this.ad = ad;
+            this.soyad = soyad;
+            this.tc = tc;
+            this.dtarih = dtarih;
+            this.telefon = telefon;
+            this.mail = mail;
+            this.adres = adres;
+            this.deneyim = deneyim;
+            this.ucret = ucret;
+            this.okul = okul;
+            this.sifre = sifre;
+            this.base64Resim = base64Resim;
+            
+            Onay o = new Onay();
+            o.Show();
+            return true;
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        public bool onay(string key, string ad, string soyad,
+            string tc, string dtarih, string telefon, string mail,
+            string adres, string deneyim, string ucret, string okul, string sifre, string base64Resim)
         {
-            Application.Exit();
-        }
-        Baglanti bg= new Baglanti();
-        Bilgi b = new Bilgi();
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MemoryStream memoryStream = new MemoryStream();
-            img.Save(memoryStream, System.Drawing.Imaging.ImageFormat.Jpeg);
 
-            byte[] resimBytes = memoryStream.ToArray();
-
-            string base64Resim = Convert.ToBase64String(resimBytes);
 
             Bilgi bilgi = new Bilgi()
             {
@@ -67,34 +75,25 @@ namespace YazMüh_Taslak
                 sifre = sifre,
                 base64resim = base64Resim
             };
-
             try
             {
                 FirebaseResponse al = bg.baglan().Get("Keys/");
                 Dictionary<string, Keys> veri = JsonConvert.DeserializeObject<Dictionary<string, Keys>>(al.Body.ToString());
 
-
-                // Check if data exists and parse it
                 if (al.Body != null)
                 {
                     foreach (var item in veri)
                     {
-                        while (item.Key == textBox1.Text)
-                        {
-                            if (item.Value.Key == textBox1.Text)
+                            if (item.Key==key && item.Value.Key == key)
                             {
-                                
                                 var yolla = bg.baglan().Set("bilgitbl/" + tc, bilgi);
-                                var sil = bg.baglan().Delete("Keys/"+textBox1.Text);
+                                /*var sil = bg.baglan().Delete("Keys/" + key);*/
                                 MessageBox.Show("Kayıt Başarılı");
                                 Giris g = new Giris();
                                 g.Show();
-                                this.Hide();
-                                break;
-                            }
-                        }
+                                return true;
+                            }                     
                     }
-
                 }
                 else
                 {
@@ -105,13 +104,7 @@ namespace YazMüh_Taslak
             {
                 MessageBox.Show("Giriş Başarısız: " + ex.Message);
             }
-
-        }
-
-
-        private void Onay_Load(object sender, EventArgs e)
-        {
-            
+            return false;
         }
     }
 }
