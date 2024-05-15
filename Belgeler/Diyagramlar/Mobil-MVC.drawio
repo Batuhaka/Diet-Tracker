@@ -1,0 +1,182 @@
+<mxfile host="app.diagrams.net" modified="2024-05-15T13:02:06.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="j2Q0YSHNHjn4I2XFGjp-" version="24.4.0" type="google">
+  <diagram name="Sayfa -1" id="W9mACzTfJmJhqRCVTiKC">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Model&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="344" y="620" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-2" value="ChatService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-3" value="ChatServiceForDoctor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-4" value="FoodDetails" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-50" value="DiyetisyenAl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-1">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-52" value="Questions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-1">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-5" value="FireBase DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="990" width="90" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Controller&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="344" y="330" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-7" value="DiyetisyenAlMesaj, Messages" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-6">
+          <mxGeometry y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-8" value="Foodİnfo" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-6">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-9" value="BMICalculator" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-6">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-54" value="DiyetisyenSec, GetUserName" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-6">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-55" value="Login,Register" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-6">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;View&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="10" width="190" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-11" value="ChatPage,ChatBuble, MassageTab" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-57" value="UserListPage, VucutKitleEndeksi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry y="60" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-56" value="Foodİnfo, HomePage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-12" value="DiyetisyenSec," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry y="120" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-13" value="&lt;div&gt;QuizStartScreen, Qı&lt;/div&gt;&lt;div&gt;zHomeScreen&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry y="150" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-58" value="&lt;div&gt;LoginPage, RegisterPage, MainPage&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry y="180" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-14" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;USER&lt;br&gt;&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="10" width="80" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;DB sorgu cevapları&lt;br&gt;&lt;/font&gt;" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-16">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="254" y="900" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;Verilerin DB sorgusu&lt;br&gt;&lt;/font&gt;" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-18">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="454" y="900" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.729;exitY=1.12;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-58" target="lAhli2wsmuDLwwAMPwAM-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="610" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-6" target="lAhli2wsmuDLwwAMPwAM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459" y="242" as="sourcePoint" />
+            <mxPoint x="459" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.85;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.686;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-52" target="lAhli2wsmuDLwwAMPwAM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="670" as="sourcePoint" />
+            <mxPoint x="469" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.15;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.264;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-5" target="lAhli2wsmuDLwwAMPwAM-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="262" as="sourcePoint" />
+            <mxPoint x="479" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Değişen Veriyi Görme" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-23">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="260" y="260" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;Datayı Alma&lt;/font&gt;" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-24">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="244" y="560" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.243;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-1" target="lAhli2wsmuDLwwAMPwAM-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="393" y="766" as="sourcePoint" />
+            <mxPoint x="380" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lAhli2wsmuDLwwAMPwAM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379" y="330" as="sourcePoint" />
+            <mxPoint x="390" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;Modelde Veri Güncelleme&lt;/font&gt;" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-27">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="460" y="560" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Görülen Değeri Değiştirme" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-28">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="450" y="260" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.005;entryY=0.9;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-4" target="lAhli2wsmuDLwwAMPwAM-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="630" as="sourcePoint" />
+            <mxPoint x="500" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="640" />
+              <mxPoint x="630" y="520" />
+              <mxPoint x="630" y="390" />
+              <mxPoint x="630" y="187" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="lAhli2wsmuDLwwAMPwAM-10" target="lAhli2wsmuDLwwAMPwAM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="180" as="sourcePoint" />
+            <mxPoint x="340" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="183" />
+              <mxPoint x="200" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Modeli Görme" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-43">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="640" y="380" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Yenileme isteği gönderme" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-44">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="60" y="380" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lAhli2wsmuDLwwAMPwAM-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lAhli2wsmuDLwwAMPwAM-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="sourcePoint" />
+            <mxPoint x="470" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;font style=&quot;font-size: 15px;&quot;&gt;Görüntü ile etkileşim&lt;/font&gt;" placeholders="1" name="Variable" id="lAhli2wsmuDLwwAMPwAM-48">
+          <mxCell style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rotation=0;" vertex="1" parent="1">
+            <mxGeometry x="170" y="60" width="120" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
