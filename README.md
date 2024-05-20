@@ -20,7 +20,6 @@ kafalarına takılan soruları sorabilmelerine imkan sağlıyoruz..
   Takım Üyelerimiz:
       1) Abdulkadir Yıldırım: Takımın iletişim sorumlusu ve lideri olan Abdulkadir, takımın organizasyonundan sorumlu ve ayrıca masaüstü uygulamasında çalışmaktadır.
     Projede kullanılan Firebase realtime veritabanı ayarlamalarını yapmış ve masaüstü uygulamasına entegre etmiştir. .Net ve Veritabanları hakkında bilgilidir.
-    
       2)Ali Darı: Mobil uygulama tarafına önderlik eden Ali projenin fikir sahiplerinden biridir. Ayrıca veritabanı seçiminde öncü olmuşutur. Mobil uygulamasının
     veritabanı entegrasyonlarını yapmıştır. Mobil uygulama geliştirme alanında bilgili Ali ayrıca oyun sektörüne de ilgi duymaktadır.
     
