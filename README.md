@@ -1,4 +1,4 @@
-                                                                DIET TRACKER
+                                                     DIET TRACKER
 
   Hastlalar ve diyetisyenlerimizi yalnızca bir uygulama aracılığıyla bir araya getirmeyi amaçladığımız bu projemizde gizliliğe önem veriyor,
 anında iletişim imkanı sunuyor ve kullanıcıların vereceği geri dönütlerle her daim ileriyi hedefliyoruz.
@@ -55,6 +55,12 @@ büyük fayda sağlamıştır.  Diyagramlar ve diğer birçok dökümanın hazı
 -10-14 gün süren sprintlerin sonrasında yaptığımız toplantılarla ortaya konan ürünleri inceledik, eleştirilerde bulunduk ve bir sonraki sprint için hedefler belirledik.
 
 -Sürekli aynı ortamda bulunduğumuz için günlük toplantıları da kolay bir şekilde yapabildik.
+
+
+[Kullanım Kılavuzu](.Belgeler/Takım 10 - Diet Tracker-KullanımKılavuzu-V2.pdf)
+[Kullanıcı Senaryosu](.Belgeler/Takım 10- Diet Tracker-Kullanıcı Senaryosu.pdf)
+[Broşür](.Belgeler/Takım 10 - Diet Tracker-Katalog-V2.pdf)
+
 
 
 
