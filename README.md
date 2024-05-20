@@ -57,11 +57,11 @@ büyük fayda sağlamıştır.  Diyagramlar ve diğer birçok dökümanın hazı
 -Sürekli aynı ortamda bulunduğumuz için günlük toplantıları da kolay bir şekilde yapabildik.
 
 
-[Kullanım Kılavuzu](Belgeler/Takım10-DietTracker-KullanımKılavuzu-V2.pdf)
+[Kullanım Kılavuzu](Belgeler/Takim10-DietTracker-KullanimKilavuzu-V2.pdf)
 
-[Kullanıcı Senaryosu](Belgeler/Takım10-DietTracker-KullanıcıSenaryosu.pdf)
+[Kullanıcı Senaryosu](Belgeler/Takim10-DietTracker-KullaniciSenaryosu.pdf)
 
-[Broşür](Belgeler/Takım10-DietTracker-Katalog-V2.pdf)
+[Broşür](Belgeler/Takim10-DietTracker-Katalog.pdf)
 
 
 
