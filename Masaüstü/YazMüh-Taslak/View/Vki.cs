@@ -27,27 +27,27 @@ namespace YazMüh_Taslak
             if (vki < 18.5)
             {
                 progressBar1.Value = 7;
-                label4.Text = (vki.ToString("F2") + "--->" + "Zayıf");
+                label4.Text = (vki.ToString() + "--->" + "Zayıf");
             }
             else if (vki < 24.9)
             {
                 progressBar1.Value = 15;
-                label4.Text = (vki.ToString("F2") + "--->" + "Normal");
+                label4.Text = (vki.ToString() + "--->" + "Normal");
             }
             else if (vki < 29.9)
             {
                 progressBar1.Value = 23;
-                label4.Text = (vki.ToString("F2") + "--->" + "Fazla Kilolu");
+                label4.Text = (vki.ToString() + "--->" + "Fazla Kilolu");
             }
             else if (vki < 39.9)
             {
                 progressBar1.Value = 31;
-                label4.Text = (vki.ToString("F2") + "--->" + "Obez");
+                label4.Text = (vki.ToString() + "--->" + "Obez");
             }
             else
             {
                 progressBar1.Value = 40;
-                label4.Text = (vki.ToString("F2") + "--->" + "Aşırı Obez");
+                label4.Text = (vki.ToString() + "--->" + "Aşırı Obez");
             }
 
         }
@@ -61,7 +61,7 @@ namespace YazMüh_Taslak
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Application.Exit();
         }
     }
 }

@@ -152,6 +152,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\DegerlendirmeKontrol.cs" />
+    <Compile Include="Controller\listeKontrol.cs" />
+    <Compile Include="Model\DiyerListesi2.cs" />
     <Compile Include="View\Ana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,7 +165,7 @@
     <Compile Include="Controller\IliskiKontrol.cs" />
     <Compile Include="Controller\KayıtKontrol.cs" />
     <Compile Include="Controller\MesajKontrol.cs" />
-    <Compile Include="Model\Baglanti.cs" />
+    <Compile Include="Controller\Baglanti.cs" />
     <Compile Include="View\besinler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,7 +181,7 @@
     <Compile Include="View\diyetYaz.Designer.cs">
       <DependentUpon>diyetYaz.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\FirebaseManager.cs" />
+    <Compile Include="Controller\FirebaseManager.cs" />
     <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +214,12 @@
     </Compile>
     <Compile Include="Model\Keys.cs" />
     <Compile Include="Model\Liste.cs" />
+    <Compile Include="View\listeGor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\listeGor.Designer.cs">
+      <DependentUpon>listeGor.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\mesaj.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -251,6 +260,12 @@
     <Compile Include="View\Vki.Designer.cs">
       <DependentUpon>Vki.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\Yorum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Yorum.Designer.cs">
+      <DependentUpon>Yorum.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="View\Ana.resx">
       <DependentUpon>Ana.cs</DependentUpon>
     </EmbeddedResource>
@@ -272,6 +287,9 @@
     <EmbeddedResource Include="View\Kayıt.resx">
       <DependentUpon>Kayıt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\listeGor.resx">
+      <DependentUpon>listeGor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\mesaj.resx">
       <DependentUpon>mesaj.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\Vki.resx">
       <DependentUpon>Vki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Yorum.resx">
+      <DependentUpon>Yorum.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -13,6 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using YazMüh_Taslak.Controller;
+using YazMüh_Taslak.View;
 
 namespace YazMüh_Taslak
 {
@@ -22,6 +23,7 @@ namespace YazMüh_Taslak
         public string soyad;
         public string tc;
         public string img;
+        public string ucret;
         public Ana()
         {
             InitializeComponent();
@@ -34,7 +36,9 @@ namespace YazMüh_Taslak
         }
 
         public List<string> kullaniciListesi = new List<string>();
-
+        private List<string[]> degerlendirmeListesi = new List<string[]>();
+        int puan = 0;
+        int degerlendirme=0;
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
         {
             GraphicsPath path = new GraphicsPath();
@@ -71,6 +75,41 @@ namespace YazMüh_Taslak
             }
             IliskiKontrol ik= new IliskiKontrol();
             kullaniciListesi=ik.iliski(tc);
+            label10.Text=kullaniciListesi.Count.ToString();
+            int kazanc = Convert.ToInt16(ucret);
+            int kisi = Convert.ToInt16(label10.Text);
+            label11.Text=(kazanc*kisi).ToString();
+
+            DegerlendirmeKontrol dk= new DegerlendirmeKontrol();
+            degerlendirmeListesi= dk.degerlendirme(tc);
+            foreach(var item in degerlendirmeListesi)
+            {
+                puan += Convert.ToInt16(item[1]);
+                degerlendirme++;
+
+            }
+            double oPuan = (puan / degerlendirme);
+            switch (oPuan) 
+            {
+                case double n when (n >= 0 && n < 1):
+                    pictureBox3.Visible = true;
+                    break;
+                case double n when (n >= 1 && n < 2):
+                    pictureBox3.Visible = true; pictureBox4.Visible = true;
+                    break;
+                case double n when (n >= 2 && n < 3):
+                    pictureBox3.Visible = true; pictureBox4.Visible = true; pictureBox5.Visible = true;
+                    break;
+                case double n when (n >= 3 && n < 4):
+                    pictureBox3.Visible = true; pictureBox4.Visible = true; pictureBox5.Visible = true;
+                    pictureBox6.Visible = true;
+                    break;
+                case double n when (n >= 4 && n <= 5):
+                    pictureBox3.Visible = true; pictureBox4.Visible = true; pictureBox5.Visible = true;
+                    pictureBox6.Visible= true;
+                    pictureBox7.Visible = true;
+                    break;
+            }
 
         }
 
@@ -93,6 +132,22 @@ namespace YazMüh_Taslak
             d.kullaniciListesi1=kullaniciListesi;
             d.Show();
             d.tc = tc;
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Yorum y = new Yorum();
+            y.yorumListesi = degerlendirmeListesi;
+            y.tc = tc;
+            y.Show();
+        }
+
+        private void bunifuTileButton6_Click(object sender, EventArgs e)
+        {
+            listeGor lg = new listeGor();
+            lg.kullaniciListesi1 = kullaniciListesi;
+            lg.tc = tc;
+            lg.Show();
         }
     }
 }

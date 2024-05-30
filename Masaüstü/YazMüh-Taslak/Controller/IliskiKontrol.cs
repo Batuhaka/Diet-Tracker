@@ -79,12 +79,12 @@ namespace YazMüh_Taslak.Controller
                             if (item3.Key == kullaniciListesi1[i])
                             {
                                 sayac++;
-/*                                MessageBox.Show("girdim.");
+/*                              MessageBox.Show("girdim.");
                                 MessageBox.Show(item3.Value.name);
                                 h.yazdir(item3.Value.name, item3.Value.lastname, item3.Value.age, item3.Value.boy,
                                     item3.Value.kilo, item3.Value.bmi);*/
                                 string[] veri1 = {item3.Value.name, item3.Value.lastname, item3.Value.age, item3.Value.boy,
-                                    item3.Value.kilo, item3.Value.bmi};
+                                    item3.Value.kilo, item3.Value.bmi,item3.Key};
                                 veriListesi.Add(veri1);
                             }
                         }
@@ -100,6 +100,18 @@ namespace YazMüh_Taslak.Controller
             catch (Exception ex)
             {
                 MessageBox.Show("Giriş Başarısız: " + ex.Message);
+            }
+            return null;
+        }
+        public string idGonder(List<string[]> veriListesi,string ad)
+        {
+            foreach (var item in veriListesi)
+            {
+                string isim = item[0] + " " + item[1];
+                if (isim==ad)
+                {
+                    return item[6];
+                }
             }
             return null;
         }

@@ -331,8 +331,8 @@ namespace YazMüh_Taslak
             {
                 string secilenKisi = comboBox1.Text; // ComboBox1'de seçili olan kişinin adını alın
                 int sonDugumIndis = 1; // İndis tanımlanıyor ve başlangıç değeri 1 olarak atanıyor
-
-                FirebaseResponse al1 = bg.baglan().Get("diyetlistesi/" + secilenKisi); // Kullanıcının varlığını kontrol et
+                var seciliAnahtar = anahtarListesi[comboBox1.SelectedIndex];
+                FirebaseResponse al1 = bg.baglan().Get("diyetlistesi/" + seciliAnahtar); // Kullanıcının varlığını kontrol et
                 if (al1.Body == "null")
                 {
                     // Kullanıcı bulunamadı, listeNo'yu 1 olarak ayarlayın ve çıkış yapın

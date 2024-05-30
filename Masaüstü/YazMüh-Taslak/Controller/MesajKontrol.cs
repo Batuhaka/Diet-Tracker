@@ -27,7 +27,6 @@ namespace YazMüh_Taslak.Controller
                     
                     if (veri == null)
                     {
-                        MessageBox.Show("buradayim");
                         message m = new message()
                         {
                             alici = id,

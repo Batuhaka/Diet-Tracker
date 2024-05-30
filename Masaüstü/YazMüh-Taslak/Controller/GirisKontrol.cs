@@ -32,6 +32,7 @@ namespace YazMüh_Taslak.Controller
                             a.soyad = item.Value.soyad;
                             a.tc = item.Value.tc;
                             a.img = item.Value.base64resim;
+                            a.ucret= item.Value.ucret;
                             a.Show();
 
                             return true; // Giriş başarılı
