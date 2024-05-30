@@ -85,7 +85,14 @@ namespace YazMüh_Taslak.View
                     listBox1.Items.Add(item[0]);
                     listBox1.Items.Add("Adet: " + item[1]);
                 }
-                diyetListesi.Clear();
+                 Baglanti bg = new Baglanti();
+                 FirebaseResponse response = bg.baglan().Get("diyetlistesi/" + id + "/" + tc + "/");
+                 dynamic data = response.ResultAs<dynamic>();
+                 var listeadi = data[1].listeadi;
+                 var toplamkalori = data[1].toplamkalori;
+                 label7.Text = listeadi;
+                 label9.Text = toplamkalori;
+                 diyetListesi.Clear();
             }
 
         }
