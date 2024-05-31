@@ -97,13 +97,14 @@ namespace YazMüh_Taslak.View
                     listBox1.Items.Add(item[0]);
                     listBox1.Items.Add("Adet: " + item[1]);
                 }
-                diyetListesi.Clear();
+                 diyetListesi.Clear();      
+            }
 
                 kaloriListesi =lk.kaloriGonder(id, tc, numara);
                 label9.Text = kaloriListesi[0];
                 label7.Text = kaloriListesi[1];
                 
-            }
+            
         }
         
     }
