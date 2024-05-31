@@ -285,7 +285,7 @@ namespace YazMüh_Taslak
                 Console.WriteLine("Diyet listesi eklenirken bir hata oluştu.");
             }
 
-            listeNoAyarla();
+            listeNo.Text = ListeNoAyarla().ToString();
         }
         public void combobox1Doldur()
         {
@@ -325,7 +325,7 @@ namespace YazMüh_Taslak
                 MessageBox.Show("Giriş Başarısız: " + ex.Message);
             }
         }
-        public void listeNoAyarla()
+        public int ListeNoAyarla()
         {
             try
             {
@@ -336,8 +336,7 @@ namespace YazMüh_Taslak
                 if (al1.Body == "null")
                 {
                     // Kullanıcı bulunamadı, listeNo'yu 1 olarak ayarlayın ve çıkış yapın
-                    listeNo.Text = "1";
-                    return;
+                    return 1;
                 }
 
                 string data = al1.Body.ToString(); // Firebase'den gelen veriyi string olarak alın
@@ -362,15 +361,16 @@ namespace YazMüh_Taslak
                     sonDugumIndis = Math.Max(sonDugumIndis, listeSayisi);
                 }
 
-                listeNo.Text = (sonDugumIndis + 1).ToString();
+                return sonDugumIndis + 1;
             }
             catch (Exception ex)
             {
                 MessageBox.Show("İşlem Başarısız: " + ex.Message);
+                return -1; // Hata durumunda -1 döndür
             }
         }
 
-       
+
         private void diyetYaz_Load(object sender, EventArgs e)
         {
             combobox1Doldur();
@@ -378,7 +378,7 @@ namespace YazMüh_Taslak
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listeNoAyarla();
+            listeNo.Text = ListeNoAyarla().ToString();
         }
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {

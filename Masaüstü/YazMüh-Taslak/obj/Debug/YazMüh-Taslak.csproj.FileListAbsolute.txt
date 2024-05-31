@@ -662,7 +662,6 @@ C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh-T
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\YazMüh-Taslak.exe.config
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\YazMüh-Taslak.exe
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\YazMüh-Taslak.pdb
-C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\ExcelDataReader.DataSet.dll
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\ExcelDataReader.dll
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\bin\Debug\FirebaseAdmin.dll
@@ -844,3 +843,5 @@ C:\Users\kolsu\Desktop\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh-Taslak.exe
 C:\Users\kolsu\Desktop\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh-Taslak.pdb
 C:\Users\kolsu\Desktop\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.Yorum.resources
 C:\Users\kolsu\Desktop\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.listeGor.resources
+C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.listeGor.resources
+C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.Yorum.resources

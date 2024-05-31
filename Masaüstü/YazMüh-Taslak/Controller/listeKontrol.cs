@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using YazMüh_Taslak.Model;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace YazMüh_Taslak.Controller
 {
@@ -17,41 +19,9 @@ namespace YazMüh_Taslak.Controller
         Baglanti bg = new Baglanti();
         private List<string[]> diyetListesi = new List<string[]>();
         List<string> keyList = new List<string>();
-        /*public List<string[]> listeGonder(string id,string tc)
-        {
-            try
-            {
-                FirebaseResponse al3 = bg.baglan().Get("diyetlistesi/" + id + "/" + tc + "/");
-                string jsonResponse = al3.Body.ToString();
-                var veri = JsonConvert.DeserializeObject<Dictionary<string, List<object>>>(jsonResponse);
-                Dictionary<string, DiyetListesi> veri = JsonConvert.DeserializeObject<Dictionary<string, DiyetListesi>>(al3.Body.ToString());
+        List<string> kaloriList= new List<string>();
 
-                if (al3.Body != null)
-                {
-
-                        foreach (var item3 in veri)
-                        {
-                            string[] liste = { item3.Value.ListeAdi,item3.Value.ToplamKalori.ToString() };
-                            diyetListesi.Add(liste);
-                        }
-
-                    return diyetListesi;
-
-                }
-                else
-                {
-                    MessageBox.Show("Kullanıcı bulunamadı");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Giriş Başarısız: " + ex.Message);
-            }
-            return null;
-
-        }*/
-
-        public List<string[]> keyGonder(string id, string tc,string ogun,string deger)
+        public List<string[]> listeGonder(string id, string tc,string ogun,string deger)
         {
 
             try
@@ -90,6 +60,65 @@ namespace YazMüh_Taslak.Controller
             return null;
         }
 
-        
+        public int ListeNoAyarla(string id)// ayrı bir klasta yazılabilir
+        {
+            try
+            {
+/*                string secilenKisi = comboBox1.Text; // ComboBox1'de seçili olan kişinin adını alın
+*/              int sonDugumIndis = 1; // İndis tanımlanıyor ve başlangıç değeri 1 olarak atanıyor
+                var seciliAnahtar = id;
+                FirebaseResponse al1 = bg.baglan().Get("diyetlistesi/" + seciliAnahtar); // Kullanıcının varlığını kontrol et
+                if (al1.Body == "null")
+                {
+                    // Kullanıcı bulunamadı, listeNo'yu 1 olarak ayarlayın ve çıkış yapın
+                    return 0;
+                }
+
+                string data = al1.Body.ToString(); // Firebase'den gelen veriyi string olarak alın
+
+                // Veriyi JSON olarak parse edin
+                dynamic parsedData = JsonConvert.DeserializeObject(data);
+
+                // Her bir kişi için diyet listelerini dolaş
+                foreach (var kisi in parsedData)
+                {
+                    int listeSayisi = 0; // Kişinin diyet listesi sayısını tutmak için sayaç
+
+                    // Kişinin diyet listesi nesnelerini dolaş
+                    foreach (var diyetListesi in kisi.Value)
+                    {
+                        if (diyetListesi != null)
+                        {
+                            listeSayisi++;
+                        }
+                    }
+
+                    sonDugumIndis = Math.Max(sonDugumIndis, listeSayisi);
+                }
+
+                return sonDugumIndis;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("İşlem Başarısız: " + ex.Message);
+                return -1; // Hata durumunda -1 döndür
+            }
+        }
+
+        public List<string> kaloriGonder(string id, string tc,string numara)
+        {
+            FirebaseResponse response = bg.baglan().Get("diyetlistesi/" + id + "/" + tc + "/");
+            dynamic data = response.ResultAs<dynamic>();
+            string listeadi = data[Convert.ToInt32(numara)].listeadi;
+            int toplamkalori = data[Convert.ToInt32(numara)].toplamkalori;
+            string stoplamkalori = toplamkalori.ToString();
+            string slisteadi = listeadi;
+            kaloriList.Add(stoplamkalori);
+            kaloriList.Add(slisteadi);
+
+            return kaloriList;
+        }
+
+
     }
 }

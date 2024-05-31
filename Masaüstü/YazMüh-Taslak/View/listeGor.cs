@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FireSharp.Response;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +25,7 @@ namespace YazMüh_Taslak.View
         public string id;
         public string numara;
         private List<string[]> diyetListesi = new List<string[]>();
+        public List<string> kaloriListesi = new List<string>();
 
         public string tc;
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -31,34 +34,43 @@ namespace YazMüh_Taslak.View
         }
 
         IliskiKontrol ik = new IliskiKontrol();
-        listeKontrol lk= new listeKontrol();
+        listeKontrol lk = new listeKontrol();
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             isim = comboBox1.SelectedItem.ToString();
-            id=ik.idGonder(veriListesi, isim);
- 
+            id = ik.idGonder(veriListesi, isim);
+            int listeNo = lk.ListeNoAyarla(id);//ne kadar listesi varsa o kadar gözükmesini ayarlıyor
+            comboBox2.Items.Clear();
+            for (int i = 1; i <= listeNo; i++)
+            {
+                comboBox2.Items.Add(i.ToString());
+            }
         }
 
         private void listeGor_Load(object sender, EventArgs e)
         {
-            
+
             veriListesi = ik.hasta(kullaniciListesi1);
             foreach (var item in veriListesi)
             {
-                comboBox1.Items.Add(item[0] +" "+ item[1]);
+                comboBox1.Items.Add(item[0] + " " + item[1]);
             }
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             numara = comboBox2.SelectedItem.ToString();
-            
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            diyetListesi = lk.keyGonder(id, tc, "aksam", numara);
-            if(diyetListesi == null) 
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
+            kaloriListesi.Clear();
+            diyetListesi = lk.listeGonder(id, tc, "aksam", numara);
+            if (diyetListesi == null)
             {
                 MessageBox.Show("Belirtilen Liste Bulunamadı");
             }
@@ -71,7 +83,7 @@ namespace YazMüh_Taslak.View
                 }
                 diyetListesi.Clear();
 
-                diyetListesi = lk.keyGonder(id, tc, "ogle", numara);
+                diyetListesi = lk.listeGonder(id, tc, "ogle", numara);
                 foreach (var item in diyetListesi)
                 {
                     listBox2.Items.Add(item[0]);
@@ -79,15 +91,20 @@ namespace YazMüh_Taslak.View
                 }
                 diyetListesi.Clear();
 
-                diyetListesi = lk.keyGonder(id, tc, "sabah", numara);
+                diyetListesi = lk.listeGonder(id, tc, "sabah", numara);
                 foreach (var item in diyetListesi)
-                {
+                {     
                     listBox1.Items.Add(item[0]);
                     listBox1.Items.Add("Adet: " + item[1]);
                 }
                 diyetListesi.Clear();
-            }
 
+                kaloriListesi =lk.kaloriGonder(id, tc, numara);
+                label9.Text = kaloriListesi[0];
+                label7.Text = kaloriListesi[1];
+                
+            }
         }
+        
     }
 }
