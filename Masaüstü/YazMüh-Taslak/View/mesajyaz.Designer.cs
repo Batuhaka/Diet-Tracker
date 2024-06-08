@@ -83,6 +83,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(344, 95);
             this.richTextBox1.TabIndex = 66;
             this.richTextBox1.Text = "";
+            this.richTextBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox1_KeyDown);
             // 
             // flowLayoutPanel1
             // 

@@ -88,23 +88,24 @@ namespace YazMüh_Taslak
                 degerlendirme++;
 
             }
+
             double oPuan = (puan / degerlendirme);
             switch (oPuan) 
             {
-                case double n when (n >= 0 && n < 1):
+                case double n when (n >= 0 && n <= 1):
                     pictureBox3.Visible = true;
                     break;
-                case double n when (n >= 1 && n < 2):
+                case double n when (n > 1 && n <= 2):
                     pictureBox3.Visible = true; pictureBox4.Visible = true;
                     break;
-                case double n when (n >= 2 && n < 3):
+                case double n when (n > 2 && n <= 3):
                     pictureBox3.Visible = true; pictureBox4.Visible = true; pictureBox5.Visible = true;
                     break;
-                case double n when (n >= 3 && n < 4):
+                case double n when (n >3  && n <= 4):
                     pictureBox3.Visible = true; pictureBox4.Visible = true; pictureBox5.Visible = true;
                     pictureBox6.Visible = true;
                     break;
-                case double n when (n >= 4 && n <= 5):
+                case double n when (n > 4 && n <= 5):
                     pictureBox3.Visible = true; pictureBox4.Visible = true; pictureBox5.Visible = true;
                     pictureBox6.Visible= true;
                     pictureBox7.Visible = true;

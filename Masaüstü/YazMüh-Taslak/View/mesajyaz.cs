@@ -20,6 +20,8 @@ namespace YazMüh_Taslak
     {
         public mesajyaz()
         {
+            this.KeyPreview = true; // KeyPreview özelliğini true olarak ayarla
+
             InitializeComponent();
         }
         public string id;
@@ -98,6 +100,15 @@ namespace YazMüh_Taslak
                 saniye = 3;
             }
 
+        }
+
+        private void richTextBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == System.Windows.Forms.Keys.Enter)
+            {
+                // Enter tuşuna basıldığında butonun tıklama olayını tetikle
+                button2.PerformClick();
+            }
         }
     }
 }

@@ -845,3 +845,6 @@ C:\Users\kolsu\Desktop\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.Y
 C:\Users\kolsu\Desktop\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.listeGor.resources
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.listeGor.resources
 C:\Users\batuh\OneDrive\Masaüstü\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.Yorum.resources
+C:\Users\kolsu\Documents\GitHub\Diet-Tracker\Masaüstü\YazMüh-Taslak\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\kolsu\Documents\GitHub\Diet-Tracker\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.listeGor.resources
+C:\Users\kolsu\Documents\GitHub\Diet-Tracker\Masaüstü\YazMüh-Taslak\obj\Debug\YazMüh_Taslak.View.Yorum.resources
