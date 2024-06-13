@@ -79,17 +79,21 @@ namespace YazMüh_Taslak
             int kazanc = Convert.ToInt16(ucret);
             int kisi = Convert.ToInt16(label10.Text);
             label11.Text=(kazanc*kisi).ToString();
-
+            double oPuan = 0;
             DegerlendirmeKontrol dk= new DegerlendirmeKontrol();
             degerlendirmeListesi= dk.degerlendirme(tc);
-            foreach(var item in degerlendirmeListesi)
-            {
-                puan += Convert.ToInt16(item[1]);
-                degerlendirme++;
+            if(degerlendirmeListesi != null) {
 
+                foreach (var item in degerlendirmeListesi)
+                {
+                    puan += Convert.ToInt16(item[1]);
+                    degerlendirme++;
+                    oPuan= (puan / degerlendirme);
+                }
             }
+            
 
-            double oPuan = (puan / degerlendirme);
+            
             switch (oPuan) 
             {
                 case double n when (n >= 0 && n <= 1):

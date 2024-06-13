@@ -1,62 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\",
+  "WorkspaceRootPath": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|c:\\users\\batuh\\onedrive\\masa\u00FCst\u00FC\\masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\listegor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\listegor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\controller\\listekontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\controller\\listekontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\listegor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|c:\\users\\batuh\\source\\repos\\diet-tracker\\masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\listegor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\listegor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\ana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\ana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\hastalar\u0131m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\hastalar\u0131m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\hastalar\u0131m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\hastalar\u0131m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\controller\\kay\u0131tkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\controller\\kay\u0131tkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\controller\\giriskontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\controller\\giriskontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\mesaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\ana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\kay\u0131t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\kay\u0131t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\besinler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\besinler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\controller\\resimkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\controller\\resimkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\vki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\vki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\ana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\ana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\kay\u0131t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\kay\u0131t.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\diyetyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\vki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\vki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\mesajyaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\mesaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\mesaj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\giris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\yazm\u00FCh-taslak\\view\\hastalar\u0131m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A144C1B-8E7B-475B-9C7C-88E3225D95A2}|YazM\u00FCh-Taslak\\YazM\u00FCh-Taslak.csproj|solutionrelative:yazm\u00FCh-taslak\\view\\hastalar\u0131m.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,167 +90,199 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "diyetYaz.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs [Tasar\u0131m]",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs [Tasar\u0131m]",
+              "DocumentIndex": 5,
+              "Title": "Vki.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Vki.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Vki.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Vki.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Vki.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowD8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T23:16:19.818Z"
+              "WhenOpened": "2024-06-11T11:49:01.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "listeKontrol.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\listeKontrol.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\Controller\\listeKontrol.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\listeKontrol.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\Controller\\listeKontrol.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBMAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "mesaj.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesaj.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\mesaj.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesaj.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\mesaj.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAkwD4AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T21:58:31.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "listeGor.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\listeGor.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\listeGor.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\listeGor.cs [Tasar\u0131m]",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\listeGor.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T21:54:40.463Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "listeGor.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\listeGor.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\listeGor.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\listeGor.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\listeGor.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAuwEMAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T21:54:38.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "diyetYaz.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
-              "ViewState": "AQIAAEUBAAAAAAAAAAAgwFoBAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:21:38.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "mesajyaz.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAuwEUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.632Z"
+              "WhenOpened": "2024-06-11T11:05:27.292Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "mesajyaz.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs [Tasar\u0131m]",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs [Tasar\u0131m]",
+              "Title": "Kay\u0131t.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAvwCQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.633Z"
+              "WhenOpened": "2024-06-11T10:52:44.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "hastalar\u0131m.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAQwFIAAAARAAAA",
+              "Title": "Giris.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Giris.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Giris.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Giris.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Giris.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAvwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.634Z"
+              "WhenOpened": "2024-06-11T10:52:14.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "hastalar\u0131m.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs [Tasar\u0131m]",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs [Tasar\u0131m]",
+              "DocumentIndex": 4,
+              "Title": "resimKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\resimKontrol.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\Controller\\resimKontrol.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\resimKontrol.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\Controller\\resimKontrol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.635Z"
+              "WhenOpened": "2024-06-11T10:25:42.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ana.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Ana.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Ana.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Ana.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Ana.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "besinler.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\besinler.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\besinler.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\besinler.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\besinler.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.635Z"
+              "WhenOpened": "2024-06-11T10:23:08.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Kay\u0131t.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Kay\u0131t.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:19:36.203Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "mesajyaz.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:18:56.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "mesaj.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesaj.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesaj.cs",
               "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\mesaj.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesaj.cs [Tasar\u0131m]",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesaj.cs [Tasar\u0131m]",
               "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\mesaj.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.637Z"
+              "WhenOpened": "2024-06-11T01:15:37.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "listeGor.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\listeGor.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\listeGor.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\listeGor.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\listeGor.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T01:13:11.354Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "GirisKontrol.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\GirisKontrol.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\Controller\\GirisKontrol.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\GirisKontrol.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\Controller\\GirisKontrol.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCEAAAA7AAAA",
+              "Title": "Vki.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Vki.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Vki.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Vki.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Vki.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.637Z"
+              "WhenOpened": "2024-06-11T01:10:57.034Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Kay\u0131tKontrol.cs",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\Kay\u0131tKontrol.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\Controller\\Kay\u0131tKontrol.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\Controller\\Kay\u0131tKontrol.cs",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\Controller\\Kay\u0131tKontrol.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAowBIAAAAVAAAA",
+              "Title": "diyetYaz.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.638Z"
+              "WhenOpened": "2024-06-11T00:58:03.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ana.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Ana.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Ana.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Ana.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Ana.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T00:43:14.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "diyetYaz.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\diyetYaz.cs",
+              "ViewState": "AQIAAPkAAAAAAAAAAAAAwAoBAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:23:37.249Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Ana.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Ana.cs",
-              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Ana.cs",
-              "ToolTip": "C:\\Users\\batuh\\OneDrive\\Masa\u00FCst\u00FC\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Ana.cs [Tasar\u0131m]",
-              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Ana.cs [Tasar\u0131m]",
+              "Title": "mesajyaz.cs",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\mesajyaz.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwFUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T11:14:12.638Z"
+              "WhenOpened": "2024-06-11T11:18:46.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "hastalar\u0131m.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\hastalar\u0131m.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T00:57:30.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Giris.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Giris.cs",
+              "RelativeDocumentMoniker": "YazM\u00FCh-Taslak\\View\\Giris.cs",
+              "ToolTip": "C:\\Users\\batuh\\source\\repos\\Diet-Tracker\\Masa\u00FCst\u00FC\\YazM\u00FCh-Taslak\\View\\Giris.cs [Tasar\u0131m]",
+              "RelativeToolTip": "YazM\u00FCh-Taslak\\View\\Giris.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T00:55:29.829Z"
             }
           ]
         },

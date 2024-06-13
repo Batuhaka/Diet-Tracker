@@ -85,9 +85,6 @@ namespace YazMüh_Taslak
             label1.Text = name;
             
             cek();
-
-
-
         }
         int saniye;
         private void timer1_Tick(object sender, EventArgs e)

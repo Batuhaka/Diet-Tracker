@@ -32,12 +32,14 @@ namespace YazMüh_Taslak
             
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            Giris giris = new Giris();
+            giris.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
             Image resim = pictureBox1.Image;
 
             MemoryStream memoryStream = new MemoryStream();

@@ -59,8 +59,10 @@ namespace YazMüh_Taslak
         }
         public void goster(int sayac, string[] veri)
         {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string folderPath = Path.Combine(desktopPath, "YeniKlasor5");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string folderPath = Path.Combine(currentDirectory, "Png");
+
+            
             
             switch (sayac)
             {
@@ -102,8 +104,11 @@ namespace YazMüh_Taslak
 
         public void goster2(int sayac, string[] veri)
         {
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string folderPath = Path.Combine(desktopPath, "YeniKlasor5");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string folderPath = Path.Combine(currentDirectory, "Png");
+
+            /*string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string folderPath = Path.Combine(desktopPath, "YeniKlasor5");*/
 
             switch (sayac)
             {
@@ -186,8 +191,8 @@ namespace YazMüh_Taslak
         private void resimyukle(string id)
         {
             resimKontrol storageHelper = new resimKontrol();
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string folderPath = Path.Combine(desktopPath, "YeniKlasor5");
+            string currentDirectory = Directory.GetCurrentDirectory();
+            string folderPath = Path.Combine(currentDirectory, "Png");
             string filePath = Path.Combine(folderPath, "{replace2}.png");
 
             string pngPath = "profile_images/{replace}.jpg";
@@ -221,7 +226,7 @@ namespace YazMüh_Taslak
         {
             mesajyaz my = new mesajyaz();
             my.id = kullaniciListesi1[4];
-            my.name = label1.Text;
+            my.name = label5.Text;
             my.tc = tc;
             my.isim = isim;
             my.Show();
@@ -231,7 +236,7 @@ namespace YazMüh_Taslak
         {
             mesajyaz my = new mesajyaz();
             my.id = kullaniciListesi1[5];
-            my.name = label1.Text;
+            my.name = label6.Text;
             my.tc = tc;
             my.isim = isim;
             my.Show();
@@ -241,7 +246,7 @@ namespace YazMüh_Taslak
         {
             mesajyaz my = new mesajyaz();
             my.id = kullaniciListesi1[6];
-            my.name = label1.Text;
+            my.name = label7.Text;
             my.tc = tc;
             my.isim = isim;
             my.Show();
@@ -251,7 +256,7 @@ namespace YazMüh_Taslak
         {
             mesajyaz my = new mesajyaz();
             my.id = kullaniciListesi1[7];
-            my.name = label1.Text;
+            my.name = label8.Text;
             my.tc = tc;
             my.isim = isim;
             my.Show();

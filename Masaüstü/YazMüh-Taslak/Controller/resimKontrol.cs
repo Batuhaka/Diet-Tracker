@@ -14,19 +14,31 @@ namespace YazMüh_Taslak
 
         public resimKontrol()
         {
-            // Firebase Storage'a erişim için gerekli yetkilendirmeler
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string serviceAccountPath = Path.Combine(desktopPath, "diet-tracker10-firebase-adminsdk-1ulfv-156bb9fe7d.json");
+            // Proje kök dizinini bulma
+            string currentDirectory = Directory.GetCurrentDirectory();
+
+            // JSON dosyasının tam yolunu oluştur
+            string serviceAccountPath = Path.Combine(currentDirectory, "diet-tracker10-firebase-adminsdk-1ulfv-52e4ea8a48.json");
+
             GoogleCredential credential = GoogleCredential.FromFile(serviceAccountPath);
             _storageClient = StorageClient.Create(credential);
         }
 
         public void DownloadImage(string bucketName, string objectName, string destinationFilePath)
         {
-            using (var outputFile = File.OpenWrite(destinationFilePath))
+            try
             {
-                // Firebase Storage'dan resmi indirme
-                _storageClient.DownloadObject(bucketName, objectName, outputFile);
+                using (var outputFile = File.OpenWrite(destinationFilePath))
+                {
+                    // Firebase Storage'dan resmi indirme
+                    _storageClient.DownloadObject(bucketName, objectName, outputFile);
+                }
+                Console.WriteLine("Image downloaded successfully to " + destinationFilePath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error downloading image: " + ex.Message);
+                Console.WriteLine("Stack Trace: " + ex.StackTrace);
             }
         }
     }

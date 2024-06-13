@@ -186,12 +186,6 @@
       <DependentUpon>diyetYaz.cs</DependentUpon>
     </Compile>
     <Compile Include="Controller\FirebaseManager.cs" />
-    <Compile Include="View\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\Giris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -203,12 +197,6 @@
     </Compile>
     <Compile Include="View\hastalarım.Designer.cs">
       <DependentUpon>hastalarım.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\hesapla.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\hesapla.Designer.cs">
-      <DependentUpon>hesapla.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Kayıt.cs">
       <SubType>Form</SubType>
@@ -284,9 +272,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\hastalarım.resx">
       <DependentUpon>hastalarım.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\hesapla.resx">
-      <DependentUpon>hesapla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Kayıt.resx">
       <DependentUpon>Kayıt.cs</DependentUpon>
