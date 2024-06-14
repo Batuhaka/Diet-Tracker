@@ -1,5 +1,7 @@
                                                      DIET TRACKER
 
+  [Tanıtım Videomuz](https://www.youtube.com/watch?v=KyEeBawUHCY)
+  
   Hastlalar ve diyetisyenlerimizi yalnızca bir uygulama aracılığıyla bir araya getirmeyi amaçladığımız bu projemizde gizliliğe önem veriyor,
 anında iletişim imkanı sunuyor ve kullanıcıların vereceği geri dönütlerle her daim ileriyi hedefliyoruz.
 
